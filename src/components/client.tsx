@@ -16,7 +16,7 @@ export default function Client() {
   
 
   async function getData() {
-    const res = await fetch('https://us-central1-nest-node-mailer.cloudfunctions.net/api')
+    const res = await fetch('/api')
     // The return value is *not* serialized
     // You can return Date, Map, Set, etc.
    

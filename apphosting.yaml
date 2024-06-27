@@ -4,3 +4,7 @@ runConfig:
   concurrency: 1
   cpu: 1
   memoryMiB: 1024
+
+env:
+  - variable: API_URL
+    value: https://us-central1-nest-node-mailer.cloudfunctions.net/api
